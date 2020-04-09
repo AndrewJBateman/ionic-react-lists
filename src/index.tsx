@@ -1,3 +1,6 @@
+// Render single page elements. PWA single page format
+// call bootstrapping file App and render React virtual DOM & service worker for PWA
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
