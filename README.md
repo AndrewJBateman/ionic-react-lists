@@ -1,6 +1,6 @@
 # Angular React Lists
 
-- App using Ionic with React to store list items in a Firebase backend. All code from tutorial by [Daniel Hampikian](https://www.youtube.com/watch?v=-RtrbNJxOfQ)
+- App using Ionic with React to store todo list items in a Firebase backend. App run successfully on an actual mobile device using Android Studio v3.6.2. Code from tutorial by [Daniel Hampikian](https://www.youtube.com/watch?v=-RtrbNJxOfQ) with custom code to hide Firebase database access data from Github.
 
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -17,23 +17,23 @@
 
 ## General info
 
-- Simple database app that allows multiple users to add text items to a Google Firebase database from PC or phone etc.
+- Simple database app that allows multiple users to Create, Read, Update and Delete (CRUD) text items to a Google Firebase database from PC or phone etc.
 
 ## Screenshots
 
 ![Example screenshot](./img/pc.png)
 ![Example screenshot](./img/firebase.png)
 ![Example screenshot](./img/android_studio.png)
-![Example screenshot](./img/phone.png)
+![Example screenshot](./img/phone.jpg)
 
 ## Technologies
 
-- [Ionic/React v5.0.7](https://www.npmjs.com/package/@ionic/react)
+- [Ionic/React v5.0.7](https://www.npmjs.com/package/@ionic/react) used to create app
 - [React v16.12.0](https://reactjs.org/) JavaScript library
 - [Capacitor](https://capacitor.ionicframework.com/docs/) cross-platform app run-time
-- [Google Cloud Firestore](https://firebase.google.com/products/firestore)
+- [Google Cloud Firestore](https://firebase.google.com/products/firestore) to store Todo items in a backend database
 - [Android Studio](https://developer.android.com/studio) to create Android app
-- [React Dev Tools Chrome extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
+- [React Dev Tools Chrome extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related) to help with debugging etc.
 
 ## Setup - Development
 
@@ -44,8 +44,8 @@
 ## Setup - Build, Android Studio
 
 - Run `ionic build` to create build files
-- Run `npx cap open android` to start app in Android Studio
 - If you don't have it already then Install Android Studio (on Windows 10 in my case - see 'Inspiration' for helpful video)
+- Run `npx cap open android` to start app in Android Studio
 - Connect mobile device to Android Studio via USB. To go into dev mode on Realme 5 Pro mobile phone connected via USB to Android: Go to 'About Phone'/'Version Baseband & Kernal' in phone settings then click 7 times on 'Version' and enter phone access code. Go to Settings/Additional Settings/Developer options and enable 'USB debugging'
 
 ## Code Examples
@@ -82,8 +82,8 @@
 
 ## Status & To-Do List
 
-- Status: Working app
-- To-Do: Create build file. Complete tutorial
+- Status: Working app, run successfully on an Android mobile device
+- To-Do: Use to develop a more complex app
 
 ## Inspiration
 
@@ -92,4 +92,4 @@
 
 ## Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me
