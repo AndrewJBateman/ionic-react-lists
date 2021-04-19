@@ -1,4 +1,4 @@
-import firebase from 'firebase/app'; 
+import firebase from 'firebase/app';
 import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import {
