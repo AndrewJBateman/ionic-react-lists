@@ -1,8 +1,12 @@
 # :zap: Angular React Lists
 
 * App using Ionic with React to store todo list items in a Firebase backend. App run successfully on an actual mobile device using Android Studio v3.6.2. Code from tutorial by [Daniel Hampikian](https://www.youtube.com/watch?v=-RtrbNJxOfQ) with custom code to hide Firebase database access data from Github.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-**\* Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-react-lists?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-react-lists?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-react-lists?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-react-lists?style=plastic)
 
 ## :page_facing_up: Table of contents
 
